@@ -16,13 +16,6 @@ abstract class PostsManager
     abstract public function count();
 
     /**
-     * Méthode permettant de supprimer un post.
-     * @param $id int L'identifiant du post à supprimer
-     * @return void
-     */
-    abstract public function delete($id);
-
-    /**
      * Méthode retournant une liste de posts demandée.
      * @param $debut int Le premier post à sélectionner
      * @param $limite int Le nombre de posts à sélectionner
