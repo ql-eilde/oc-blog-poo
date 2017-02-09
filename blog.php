@@ -21,7 +21,7 @@ if (isset($_GET['id']))
                             <h1>'.htmlspecialchars($post->title()).'</h1>
                             <p><span class="glyphicon glyphicon-time"></span> Article posté le '.$post->createdAt()->format('d/m/Y à H\hi').' par '.htmlspecialchars($post->author()).'</p>
                             <hr>
-                            <p class="lead">'.htmlspecialchars($post->subtitle()).'</p>
+                            <p class="lead" style="font-size:28px">Chapô: '.htmlspecialchars($post->subtitle()).'</p>
                             <p>'.htmlspecialchars($post->content()).'</p>
                             <hr>
                             <p style="text-align:right"><a class="btn btn-primary" href="admin.php?modifier='.$post->id().'">Modifier l\'article<span class="glyphicon glyphicon-chevron-right"></span></a></p>
