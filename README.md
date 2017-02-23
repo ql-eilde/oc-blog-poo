@@ -4,7 +4,7 @@ This is the public repository of my 5th project on OpenClassrooms. The goal of t
 1- Git clone the repository into your WAMP or MAMP directory.
 
 2- Open MySQL and do the followings :
-  - Create a database called "projet5".
+  - Create a database called "blog".
   - Create the "posts" table by executing this request :
   
   CREATE TABLE `posts` (
