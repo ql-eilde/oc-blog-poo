@@ -19,7 +19,5 @@ This is the public repository of my 5th project on OpenClassrooms. The goal of t
   `updatedAt` datetime NOT NULL
   ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
-  - Then populate the table by adding some fake data with this request :
-  
-  - Open the file index.php
+  - If you want some fake data go to /blog.php and click on the link "Créer 10 articles de démo".
   - Bazinga !
