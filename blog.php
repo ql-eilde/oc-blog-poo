@@ -83,7 +83,10 @@ else
                     <p>', $prevlink, ' Page ', $page, ' sur ', $nb_pages, ' ', $nextlink, '</p>
                 </div>';
             } else {
-                echo '<h1>Aucun article pour le moment</h1>';
+                echo '
+                    <h1>Aucun article pour le moment</h1>
+                    <a href="admin.php?populate">Créer 10 articles de démo</a>
+                ';
             }
             ?>
         </div>

@@ -20,14 +20,6 @@ This is the public repository of my 5th project on OpenClassrooms. The goal of t
   ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
   - Then populate the table by adding some fake data with this request :
-
-  INSERT INTO `posts` (`id`, `author`, `title`, `subtitle`, `content`, `createdAt`, `updatedAt`) VALUES
-  (1, 'Quentin L''eilde', 'Lorem Ipsum Titre 1', 'Lorem Ipsum Sous Titre 1', 'Laboriosam consequatur saepe veritatis enim doloribus voluptatem expedita. Deleniti saepe deleniti quae voluptas nihil. Dolor quis quidem consequatur architecto eos dolorem. Quaerat fugit qui exercitationem corporis. Mollitia expedita pariatur eius non temporibus consectetur.', '2017-03-08 16:36:17', '2017-03-08 16:36:17'),
-  (2, 'Quentin L''eilde', 'Lorem Ipsum Titre 2', 'Lorem Ipsum Sous Titre 2', 'Laboriosam consequatur saepe veritatis enim doloribus voluptatem expedita. Deleniti saepe deleniti quae voluptas nihil. Dolor quis quidem consequatur architecto eos dolorem. Quaerat fugit qui exercitationem corporis. Mollitia expedita pariatur eius non temporibus consectetur.', '2017-03-08 16:36:17', '2017-03-08 16:36:17'),
-  (3, 'Quentin L''eilde', 'Lorem Ipsum Titre 3', 'Lorem Ipsum Sous Titre 3', 'Laboriosam consequatur saepe veritatis enim doloribus voluptatem expedita. Deleniti saepe deleniti quae voluptas nihil. Dolor quis quidem consequatur architecto eos dolorem. Quaerat fugit qui exercitationem corporis. Mollitia expedita pariatur eius non temporibus consectetur.', '2017-03-08 16:36:17', '2017-03-08 16:36:17'),
-  (4, 'Quentin L''eilde', 'Lorem Ipsum Titre 4', 'Lorem Ipsum Sous Titre 4', 'Laboriosam consequatur saepe veritatis enim doloribus voluptatem expedita. Deleniti saepe deleniti quae voluptas nihil. Dolor quis quidem consequatur architecto eos dolorem. Quaerat fugit qui exercitationem corporis. Mollitia expedita pariatur eius non temporibus consectetur.', '2017-03-08 16:36:17', '2017-03-08 16:36:17'),
-  (5, 'Quentin L''eilde', 'Lorem Ipsum Titre 5', 'Lorem Ipsum Sous Titre 5', 'Laboriosam consequatur saepe veritatis enim doloribus voluptatem expedita. Deleniti saepe deleniti quae voluptas nihil. Dolor quis quidem consequatur architecto eos dolorem. Quaerat fugit qui exercitationem corporis. Mollitia expedita pariatur eius non temporibus consectetur.', '2017-03-08 16:36:17', '2017-03-08 16:36:17'),
-  (6, 'Quentin L''eilde', 'Lorem Ipsum Titre 6', 'Lorem Ipsum Sous Titre 6', 'Laboriosam consequatur saepe veritatis enim doloribus voluptatem expedita. Deleniti saepe deleniti quae voluptas nihil. Dolor quis quidem consequatur architecto eos dolorem. Quaerat fugit qui exercitationem corporis. Mollitia expedita pariatur eius non temporibus consectetur.', '2017-03-08 16:36:17', '2017-03-08 16:36:17');
   
   - Open the file index.php
   - Bazinga !

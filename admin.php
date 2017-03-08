@@ -1,6 +1,7 @@
 <?php
 require 'lib/autoload.php';
 require 'lib/csrf.php';
+require_once 'vendor/fzaninotto/faker/src/autoload.php';
 
 session_start();
 $db = DBFactory::getConnexionWithPDO();
@@ -10,6 +11,24 @@ if (isset($_GET['modifier']))
 {
     $post = $manager->getUnique((int) $_GET['modifier']);
 }
+
+if (isset($_GET['populate']))
+{
+    $faker = Faker\Factory::create('fr_FR');
+    for($i = 1; $i <= 10; $i++){
+        $post = new Posts(
+            [
+                'author' => $faker->name,
+                'title' => $faker->sentence,
+                'subtitle' => $faker->sentence,
+                'content' => $faker->text
+            ]
+        );
+
+        $manager->save($post);
+    }
+    $message = '10 articles générés !';
+}    
 
 if (isset($_POST['auteur']) && check_token())
 {
