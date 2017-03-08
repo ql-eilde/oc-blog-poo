@@ -6,10 +6,11 @@ This is the public repository of my 5th project on OpenClassrooms. The goal of t
 ## 2. Create a database
 E.g "blog".
 
-## 3. Update the file lib/DBFactory.php with your database credentials
+## 3. Update the file lib/DBFactory.php.dist with your database credentials
 
     $db = new PDO('mysql:host=HOST;dbname=NAME', 'USER', 'PASSWORD');
 
+Don't forget to delete the .dist
 ## 4. Create the "posts" table
 
   CREATE TABLE `posts` (
@@ -21,6 +22,12 @@ E.g "blog".
   `createdAt` datetime NOT NULL,
   `updatedAt` datetime NOT NULL
   ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+  ALTER TABLE `posts`
+  ADD PRIMARY KEY (`id`);
+
+  ALTER TABLE `posts`
+  MODIFY `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT;
 
 ## 5. Download the vendors
 Avec Composer :
